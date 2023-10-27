@@ -43,7 +43,7 @@ print(f"Welcome to {Bank.bank}")
 
 name = str(input("Enter your name: ")).title()
 socials = int(input("Enter your ssn to proceed: "))
-address = input("Enter your address: ")
+address = input("Enter your address: ").title()
 
 b = Bank(name,socials,address)
 print(f"Hello {name}\nYou have now succesfully registered to {Bank.bank} and your account number is {b.account_number()}")
