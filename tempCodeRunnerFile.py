@@ -21,7 +21,7 @@ class Bank():
         print(f"You have succesfully deposited {amount}")
        
     def acct_balance(self):
-        print(f"Hello {self.name}, your Balance is {self.balance}")
+        print(f"Hello {self.name}, your balance is {self.balance}")
 
     def withdraw(self,amount):
         x = float(amount)
